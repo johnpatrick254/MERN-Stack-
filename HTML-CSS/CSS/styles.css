@@ -1,0 +1,24 @@
+
+body {
+background-color: #f3efe0;
+}
+
+hr {
+background-color: white;
+border-style: dotted none none;
+height: 0px;
+width: 30px;
+border-color: black;
+border-width: 5px;
+}
+
+img {
+background: black 2px dashed;
+}
+
+h1{
+    color: #82C3EC;
+}
+h3{
+    color: #2d6486;
+}
