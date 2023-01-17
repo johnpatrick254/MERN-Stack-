@@ -6,7 +6,7 @@ var playerInput = [];
 var rpLength = randomPattern.length;
 
 
-           //game start
+//game start
 //Animation functions
 
 function displayRestart(){
@@ -56,10 +56,6 @@ function displayGameOver(){
 
 
 //Level 1
-for(l= 0 ; rpLength < l ; l++) { startGame();
-    
-}
-function startGame() {
 $('body').on("keypress", function(){
     
     var randomNumber = Math.floor((Math.random() * 4) + 1);
@@ -94,7 +90,7 @@ $('body').on("keypress", function(){
 
     }
 })
-}
+
 // End of Level 1//
 
 //Start of Level 2//
@@ -111,6 +107,7 @@ var blueButton = 4;
 
 $('.btn').on("click", function(){
     var clickedButton = this.id;
+
     
     switch (clickedButton){
 
