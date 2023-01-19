@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../Assets/home/background-home-desktop.jpg)  no-repeat;
+   
+}
+
+/* NavBAR */
+
+.nav-cus{
+padding-left: 40rem;
+margin: 0;
+font-size: 1.5rem;
+border: solid red;
+height: 100%;
+
+}
+
+#horizontal-rule{
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+    width: 4rem;
+    
+}
