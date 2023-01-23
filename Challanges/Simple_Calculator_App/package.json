@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "simple_calculator_app",
+  "version": "1.0.0",
+  "description": "simple calculot app",
+  "main": "calculator.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jp",
+  "license": "ISC"
+}
