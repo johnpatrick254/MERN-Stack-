@@ -7,19 +7,30 @@ body{
 
 /* NavBAR */
 
-.nav-cus{
-padding-left: 40rem;
+#navbar{
+width: 100vw;
 margin: 0;
-font-size: 1.5rem;
-border: solid red;
-height: 100%;
+padding: 0;
+}
+.nav-cus{
+display: inline-block;
+position: relative;
+left : 60vw;
+}
+.nav-item a{
+display: inline-block;
+padding: 2rem 1rem;
+text-decoration: none;
+color: white;
+list-style: none;
 
 }
 
 #horizontal-rule{
-    font-size: 2rem;
-    color: white;
-    display: inline-block;
-    width: 4rem;
+display: inline-block;
+position: relative   ;
+border-top: 10px dashed white;
+height: 1;
+
     
 }
