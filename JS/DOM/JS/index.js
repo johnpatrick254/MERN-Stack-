@@ -4,7 +4,7 @@ var randomNumber_1 =Math.floor(Math.random() * 6) + 1;
 
 var diceImg_1 = document.querySelectorAll('img')[0];
 
-var randomDice_1 = '/Dicee Challenge - Starting Files/images/dice' + randomNumber_1 + '.png';
+var randomDice_1 = './images/dice' + randomNumber_1 + '.png';
 
 diceImg_1.setAttribute('src', randomDice_1);
 
@@ -14,7 +14,7 @@ var randomNumber_2 = Math.floor(Math.random() * 6) + 1;
 
 var diceImg_2 = document.querySelectorAll('img')[1];
 
-var randomDice_2 = '/Dicee Challenge - Starting Files/images/dice' + randomNumber_2 + '.png';
+var randomDice_2 = './images/dice' + randomNumber_2 + '.png';
 
 diceImg_2.setAttribute('src', randomDice_2);
 
