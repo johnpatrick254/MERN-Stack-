@@ -1,0 +1,14 @@
+{
+  "name": "simon-game-challenge-starting-files",
+  "version": "1.0.0",
+  "description": "Simon Game",
+  "main": "app.js\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "john",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

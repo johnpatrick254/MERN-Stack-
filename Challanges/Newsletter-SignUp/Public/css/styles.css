@@ -14,8 +14,12 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(7,45,54,1) 100%);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(7, 45, 54, 1) 100%
+  );
 }
 
 .form-signin {
