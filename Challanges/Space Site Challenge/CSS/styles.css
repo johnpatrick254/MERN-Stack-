@@ -8,29 +8,37 @@ body{
 /* NavBAR */
 
 #navbar{
-width: 100vw;
+display: block;
 margin: 0;
 padding: 0;
+border: 4px solid red;
 }
 .nav-cus{
+padding: 0 0% 0 50%;
 display: inline-block;
-position: relative;
-left : 60vw;
 }
-.nav-item a{
-display: inline-block;
-padding: 2rem 1rem;
+.nav-link{
+
 text-decoration: none;
 color: white;
 list-style: none;
+font-size: larger;
+
+}
+.nav-item{
+display: inline-block ;
+text-decoration: none;
+color: white;
+list-style: none;
+padding: 0 0%;
 
 }
 
 #horizontal-rule{
 display: inline-block;
 position: relative   ;
-border-top: 10px dashed white;
-height: 1;
-
-    
+border-top: 15px dashed white;
+width: 1rem;
+padding: 0 4%;
+        
 }
