@@ -1,0 +1,10 @@
+<%- include("partials/header") %> <% posts.forEach(function(post){%>
+
+<h1><%=post.postTitle%></h1>
+
+<% if(post.postBody.length > 100){ %>
+<p><%= post.postBody.substring(0,200) + " ... "%></p>
+<a href="/posts/<%=post.postTitle%>">Read More</a>
+<% } else { %>
+<p><%= post.postBody%></p>
+<% } %> <%})%> <%- include("partials/footer") %>
