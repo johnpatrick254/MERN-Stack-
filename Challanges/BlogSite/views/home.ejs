@@ -6,5 +6,13 @@
 <p><%= post.postBody.substring(0,200) + " ... "%></p>
 <a href="/posts/<%=post.postTitle%>">Read More</a>
 <% } else { %>
-<p><%= post.postBody%></p>
-<% } %> <%})%> <%- include("partials/footer") %>
+<p><%= post.postBody%> </p>
+<a href="/posts/<%=post.postTitle%>">View Post</a>
+
+
+<% } %> <%})%>
+
+<div class="compose">
+   <a class="btn btn-primary" href="http://localhost:3000/compose">Compose</a>
+    </div>
+<%- include("partials/footer") %>
