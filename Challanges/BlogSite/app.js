@@ -13,7 +13,7 @@ app.set("view engine", "ejs")
 
 //connect to Mongo atlas
 mongoose.set("strictQuery",true)
-mongoose.connect("mongodb+srv://jpattrick538:"+ process.env.PASSWORD + "@cluster0.rfaz43j.mongodb.net/blogsiteDB")
+mongoose.connect(process.env.URI )
 //end of db connection
 
 //schemas
