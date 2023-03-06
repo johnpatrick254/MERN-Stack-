@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express")
 const app = express()
 const bodyParser = require("body-parser")
@@ -12,7 +13,7 @@ app.set("view engine", "ejs")
 
 //connect to Mongo atlas
 mongoose.set("strictQuery",true)
-mongoose.connect("mongodb+srv://jpattrick538:Koffiking1@cluster0.rfaz43j.mongodb.net/blogsiteDB")
+mongoose.connect("mongodb+srv://jpattrick538:"+ process.env.PASSWORD + "@cluster0.rfaz43j.mongodb.net/blogsiteDB")
 //end of db connection
 
 //schemas
