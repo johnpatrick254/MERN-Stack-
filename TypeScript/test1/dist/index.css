@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    
+}
+
+.calc{
+    margin:40% 0;
+    /* width: 100%; */
+}
+
+#button{
+background-color: aqua;
+position: absolute;
+top:0;
+left: 0;
+width:50px
+}
+#buttons{
+    background-color: aqua;
+    position: absolute;
+    top:0;
+    right: 0;
+    width:50px
+}
+
+.vertical{
+    
+    animation: vertical 4s linear 200ms infinite alternate;
+}
+.horizontal{
+    
+    animation: horizontal 4s linear 200ms infinite alternate;
+}
+
+@keyframes horizontal {
+    0%{
+        /* transform: translateY(0); */
+        left: 0;
+    }
+    25%{
+        /* transform: translateX(25%); */
+        left: 25%;
+        top: 25%;
+    }
+    50%{
+        /* transform: translateX(50%); */
+        left: 50%;
+        top: 50%;
+
+        
+    }
+    75%{
+        left: 75%;
+        top: 75%;
+
+        /* transform: translateX(75%); */
+        
+        
+    }
+    100%{
+        left: 100%;
+        top: 100%;
+        /* transform: translateX(100%); */
+        
+    }
+}
+@keyframes vertical {
+    0%{
+        /* transform: translateY(0); */
+        right: 0;
+    }
+    25%{
+        /* transform: translateX(25%); */
+        right: 25%;
+        top: 25%;
+    }
+    50%{
+        /* transform: translateX(50%); */
+        right: 50%;
+        top: 50%;
+
+        
+    }
+    75%{
+        right: 75%;
+        top: 75%;
+
+        /* transform: translateX(75%); */
+        
+        
+    }
+    100%{
+        right: 100%;
+        top: 100%;
+        /* transform: translateX(100%); */
+        
+    }
+}

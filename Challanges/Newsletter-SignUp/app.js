@@ -10,7 +10,7 @@ app.use(express.static("public"))
 app.get("/", function(req,res){
     res.sendFile(__dirname + "/signup.html")
 })
-
+fetch("http://localhost:3000/oop/database/Database.php").then(res=> res.json()).then(data=>console.log(data))
 app.post("/", function(req,res){
    console.log(req.body) 
    const firstName = req.body.firstName;
@@ -48,7 +48,7 @@ app.post("/", function(req,res){
 })
 
 
-app.listen(process.env.PORT || 3000, function(req,res){
+app.listen(process.env.PORT || 5050, function(req,res){
     console.log("Server Started");
 })
 
