@@ -12,7 +12,12 @@ $colors: (
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
 html {
   scroll-behavior: smooth;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,6 +31,7 @@ img {
 
 #container {
   width: 100%;
+  max-width: 1280px;
   min-height: 100vh;
   display: grid;
   grid-template-areas:
@@ -33,10 +39,10 @@ img {
     "main"
     "footer";
   place-items: center;
+  justify-content: center;
   grid-template-rows: 0.5fr 3fr 1fr;
   //   gap: 1rem;
   padding: 3% 14%;
-  place-items: center;
 }
 .flex-row-justify-space-btw {
   display: flex;
