@@ -3,7 +3,6 @@ let dig2 = document.getElementById('dig2') as HTMLInputElement;
 let button = document.getElementById('button') as HTMLButtonElement
 let ans = document.getElementById('answer')!
 
-
 button.addEventListener('click',() => {
     const answer = Number(dig1.value) + Number(dig2.value)
     ans.innerHTML = `${answer}`
