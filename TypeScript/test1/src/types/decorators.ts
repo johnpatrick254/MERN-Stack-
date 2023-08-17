@@ -160,7 +160,6 @@ const PositiveNumber = (target: any, name: string) => {
     [name]: ['positive']
   }
 }
-
 const validator = (obj: any) => {
   const config = registeredValidators[obj.constructor.name]
   if (!config) {
@@ -180,7 +179,8 @@ const validator = (obj: any) => {
   }
 }
 class Courses {
-
+  
+  @Required
   title: string;
   private _price: number
 
